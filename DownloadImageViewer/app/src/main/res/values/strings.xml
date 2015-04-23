@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DownloadImageViewer</string>
+    <string name="default_url">http://www.dre.vanderbilt.edu/~schmidt/robot.png</string>
+</resources>
