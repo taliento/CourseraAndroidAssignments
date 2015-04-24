@@ -3,12 +3,12 @@
     package="org.coursera.taliento.dailyselfie" >
 
     <uses-feature
-        android:name="android.hardware.Camera"
+        android:name="android.hardware.Camera2"
         android:required="true" />
 
     <uses-permission
         android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-        android:minSdkVersion="18" />
+        android:minSdkVersion="21" />
 
     <application
         android:allowBackup="true"

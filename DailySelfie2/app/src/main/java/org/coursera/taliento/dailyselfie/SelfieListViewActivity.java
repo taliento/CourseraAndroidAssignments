@@ -1,5 +1,7 @@
 package org.coursera.taliento.dailyselfie;
 
+import android.annotation.TargetApi;
+import android.app.ActivityOptions;
 import android.app.AlarmManager;
 import android.app.ListActivity;
 import android.app.PendingIntent;
@@ -7,13 +9,16 @@ import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
 import android.provider.MediaStore;
+import android.transition.Explode;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.Window;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
@@ -50,13 +55,15 @@ public class SelfieListViewActivity extends ListActivity {
         SELFIE_ADAPTER = new CustomAdapter(this, R.layout.list_item, R.id.item_txt, SELFIES);
         SELFIE_ADAPTER.setNotifyOnChange(true);
         setListAdapter(SELFIE_ADAPTER);
-        ListView listView = getListView();
+        final ListView listView = getListView();
         listView.setOnItemClickListener(new OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                getWindow().setExitTransition(new Explode());
                 Intent fullSelfieIntent = new Intent(Intent.ACTION_VIEW);
                 fullSelfieIntent.setDataAndType(Uri.parse("file://" + SELFIES.get(i).getSelfiePath()), "image/*");
-                startActivity(fullSelfieIntent);
+                startActivity(fullSelfieIntent,ActivityOptions
+                        .makeSceneTransitionAnimation(SelfieListViewActivity.this).toBundle());
             }
         });
         listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
@@ -152,7 +159,8 @@ public class SelfieListViewActivity extends ListActivity {
 
             if (selfieFile != null) {
                 takePictureIntent.putExtra(MediaStore.EXTRA_OUTPUT, Uri.fromFile(selfieFile));
-                startActivityForResult(takePictureIntent, REQUEST_TAKE_PHOTO);
+                startActivityForResult(takePictureIntent, REQUEST_TAKE_PHOTO, ActivityOptions
+                        .makeSceneTransitionAnimation(this).toBundle());
             }
 
         }
