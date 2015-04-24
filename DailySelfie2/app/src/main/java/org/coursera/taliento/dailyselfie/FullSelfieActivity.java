@@ -17,10 +17,9 @@ public class FullSelfieActivity extends Activity {
         getWindow().requestFeature(Window.FEATURE_CONTENT_TRANSITIONS);
         setContentView(R.layout.activity_full_selfie);
 
-        String v = getIntent().getStringExtra("xxx");
         ImageView imageView = (ImageView)findViewById(R.id.selfie_full);
 
-        imageView.setBackground( getResources().getDrawable(R.drawable.selfie));
+        imageView.setBackground(getDrawable(R.drawable.selfie));
     }
 
 
