@@ -196,6 +196,7 @@ public class DownloadImageService extends IntentService {
         // Return the result to indicate whether the download
         // succeeded or failed.
         // @@ TODO -- you fill in here.
+        getResultCode(message);
 
         // Put the path to the image file into the Bundle via the
         // IMAGE_PATHNAME key only if the download succeeded.

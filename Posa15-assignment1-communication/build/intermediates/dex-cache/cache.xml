@@ -2,26 +2,26 @@
 <pre-dex-items>
 
     <item
-        dex="/home/taliento/sviluppoAndroid/Posa15-assignment1-communication/app/build/intermediates/pre-dexed/debug/classes-ae889c9ec39ba2f7c7833bdf3865eeac397190c7.jar"
-        jar="/home/taliento/sviluppoAndroid/Posa15-assignment1-communication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.0/classes.jar"
+        dex="/home/taliento/sviluppoAndroid/CourseraAndroidAssignments/Posa15-assignment1-communication/app/build/intermediates/pre-dexed/debug/classes-c8c193ce351d654f19850700d815df87dafee58a.jar"
+        jar="/home/taliento/sviluppoAndroid/CourseraAndroidAssignments/Posa15-assignment1-communication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.0/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="983e2f375504bc04def18e709c35192afe92e65f"/>
     <item
-        dex="/home/taliento/sviluppoAndroid/Posa15-assignment1-communication/app/build/intermediates/pre-dexed/debug/classes-479a7e1edf4fb3d1e3d6cd688a5f28c1e48e49ef.jar"
-        jar="/home/taliento/sviluppoAndroid/Posa15-assignment1-communication/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.0/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="eeebabdfd8203f6ab639ccea4ffa1f20e1adee3a"/>
-    <item
-        dex="/home/taliento/sviluppoAndroid/Posa15-assignment1-communication/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.0-373afe851ed6d874b0fc4ae26fcc252942fc5c1e.jar"
+        dex="/home/taliento/sviluppoAndroid/CourseraAndroidAssignments/Posa15-assignment1-communication/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.0-373afe851ed6d874b0fc4ae26fcc252942fc5c1e.jar"
         jar="/opt/android-studio/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.0/support-annotations-22.1.0.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="281bc6c58ecb3644c23fbc5ee0452019f67b4d5d"/>
     <item
-        dex="/home/taliento/sviluppoAndroid/Posa15-assignment1-communication/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.0-6a5766cf79b160d208ded62477c2c428bda6d721.jar"
-        jar="/home/taliento/sviluppoAndroid/Posa15-assignment1-communication/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.0/libs/internal_impl-22.1.0.jar"
+        dex="/home/taliento/sviluppoAndroid/CourseraAndroidAssignments/Posa15-assignment1-communication/app/build/intermediates/pre-dexed/debug/classes-fcea06734011cfeeb6a1cc3826a4df292a79420f.jar"
+        jar="/home/taliento/sviluppoAndroid/CourseraAndroidAssignments/Posa15-assignment1-communication/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="eeebabdfd8203f6ab639ccea4ffa1f20e1adee3a"/>
+    <item
+        dex="/home/taliento/sviluppoAndroid/CourseraAndroidAssignments/Posa15-assignment1-communication/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.0-4bc7dba7a8a7f09f6bae88370edfc2fcf641290e.jar"
+        jar="/home/taliento/sviluppoAndroid/CourseraAndroidAssignments/Posa15-assignment1-communication/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.0/libs/internal_impl-22.1.0.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="025cb89f2896c63200ff4c2e6c467a95691d880a"/>

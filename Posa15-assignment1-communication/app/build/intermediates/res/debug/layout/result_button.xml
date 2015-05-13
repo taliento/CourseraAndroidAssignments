@@ -4,4 +4,4 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     style="?android:attr/borderlessButtonStyle" >
-</Button><!-- From: file:/home/taliento/sviluppoAndroid/Posa15-assignment1-communication/app/src/main/res/layout/result_button.xml -->
+</Button><!-- From: file:/home/taliento/sviluppoAndroid/CourseraAndroidAssignments/Posa15-assignment1-communication/app/src/main/res/layout/result_button.xml -->
