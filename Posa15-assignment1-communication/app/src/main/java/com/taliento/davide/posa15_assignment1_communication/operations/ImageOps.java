@@ -1,4 +1,4 @@
-package vandy.mooc.operations;
+package com.taliento.davide.posa15_assignment1_communication.operations;
 
 import java.io.File;
 import java.lang.ref.WeakReference;
@@ -6,12 +6,6 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 
-import vandy.mooc.activities.DisplayImagesActivity;
-import vandy.mooc.activities.MainActivity;
-import vandy.mooc.services.DownloadImageService;
-import vandy.mooc.utils.ServiceResultHandler;
-import vandy.mooc.utils.Utils;
-import vandy.mooc.R;
 
 import android.app.ActionBar.LayoutParams;
 import android.app.Activity;
@@ -27,6 +21,13 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+
+import com.taliento.davide.posa15_assignment1_communication.R;
+import com.taliento.davide.posa15_assignment1_communication.activities.DisplayImagesActivity;
+import com.taliento.davide.posa15_assignment1_communication.activities.MainActivity;
+import com.taliento.davide.posa15_assignment1_communication.services.DownloadImageService;
+import com.taliento.davide.posa15_assignment1_communication.utils.ServiceResultHandler;
+import com.taliento.davide.posa15_assignment1_communication.utils.Utils;
 
 /**
  * This class provides all the image-related operations.
@@ -100,7 +101,7 @@ public class ImageOps {
      */
     public ImageOps(MainActivity activity) {
         // Initialize the WeakReference.
-        mActivity = new WeakReference<>(activity);
+        mActivity = new WeakReference<MainActivity>(activity);
 
         // Initialize the downloadHandler.
         mServiceResultHandler =
@@ -163,7 +164,7 @@ public class ImageOps {
 
         if (mUrlList.isEmpty())
             Utils.showToast(mActivity.get(),
-                            "no images provided");
+                    "no images provided");
         else {
             // Make the progress bar visible.
             mLoadingProgressBar.setVisibility(View.VISIBLE);
@@ -185,10 +186,10 @@ public class ImageOps {
         // Create an intent to download the image.
         Intent intent =
             DownloadImageService.makeIntent(mActivity.get(),
-                                            OperationType.DOWNLOAD_IMAGE.ordinal(),
-                                            url,
-                                            mDirectoryPathname,
-                                            mServiceResultHandler);
+                    OperationType.DOWNLOAD_IMAGE.ordinal(),
+                    url,
+                    mDirectoryPathname,
+                    mServiceResultHandler);
         Log.d(TAG,
               "starting the DownloadImageService for "
               + url.toString());
@@ -417,7 +418,7 @@ public class ImageOps {
      */
     public void onConfigurationChange(MainActivity activity) {
         // Reset the mActivity WeakReference.
-        mActivity = new WeakReference<>(activity);
+        mActivity = new WeakReference<MainActivity>(activity);
 
         // If we have a currently active service result handler, allow
         // the handler to update its outdated weak reference to the

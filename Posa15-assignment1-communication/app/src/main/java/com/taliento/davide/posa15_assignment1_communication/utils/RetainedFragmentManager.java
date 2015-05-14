@@ -1,4 +1,4 @@
-package vandy.mooc.utils;
+package com.taliento.davide.posa15_assignment1_communication.utils;
 
 import java.lang.ref.WeakReference;
 import java.util.HashMap;

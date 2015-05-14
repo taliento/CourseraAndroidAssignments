@@ -1,12 +1,14 @@
-package vandy.mooc.activities;
+package com.taliento.davide.posa15_assignment1_communication.activities;
 
-import vandy.mooc.R;
-import vandy.mooc.operations.ImageOps;
-import vandy.mooc.utils.RetainedFragmentManager;
-import vandy.mooc.utils.ServiceResult;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+
+import com.taliento.davide.posa15_assignment1_communication.R;
+import com.taliento.davide.posa15_assignment1_communication.operations.ImageOps;
+import com.taliento.davide.posa15_assignment1_communication.utils.RetainedFragmentManager;
+import com.taliento.davide.posa15_assignment1_communication.utils.ServiceResult;
+
 
 /**
  * The main Activity that prompts the user for URLs of images to
@@ -25,7 +27,7 @@ public class MainActivity extends LifecycleLoggingActivity
      * Used to retain the ImageOps state between runtime configuration
      * changes.
      */
-    protected final RetainedFragmentManager mRetainedFragmentManager = 
+    protected final RetainedFragmentManager mRetainedFragmentManager =
         new RetainedFragmentManager(this.getFragmentManager(),
                                     TAG);
 
@@ -39,7 +41,7 @@ public class MainActivity extends LifecycleLoggingActivity
      * One time initialization code goes here, e.g., UI layout
      * initialization and runtime configuration changes.
      *
-     * @param Bundle object that contains saved state information.
+     * @param savedInstanceState object that contains saved state information.
      */
     @Override
     protected void onCreate(Bundle savedInstanceState) {

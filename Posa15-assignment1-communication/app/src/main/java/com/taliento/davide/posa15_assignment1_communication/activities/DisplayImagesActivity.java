@@ -1,10 +1,8 @@
-package vandy.mooc.activities;
+package com.taliento.davide.posa15_assignment1_communication.activities;
 
 import java.io.File;
 import java.util.ArrayList;
 
-import vandy.mooc.R;
-import vandy.mooc.utils.Utils;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -19,6 +17,9 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.ImageView;
+
+import com.taliento.davide.posa15_assignment1_communication.R;
+import com.taliento.davide.posa15_assignment1_communication.utils.Utils;
 
 /**
  * An Activity that Displays an image.
@@ -236,10 +237,15 @@ public class DisplayImagesActivity extends LifecycleLoggingActivity {
                                 // out-of-memory exceptions with large
                                 // images.
                                 (getScaledBitmap(bitmap));
-                        } catch (Exception | Error e) {
+                        } catch (Exception e) {
                             Log.e(TAG,"Error displaying image:", e);
                             Utils.showToast(DisplayImagesActivity.this,
-                                            "Error displaying image at "
+                                    "Error displaying image at "
+                                            + bitmap.getAbsolutePath());
+                        } catch (Error e) {
+                            Log.e(TAG,"Error displaying image:", e);
+                            Utils.showToast(DisplayImagesActivity.this,
+                                    "Error displaying image at "
                                             + bitmap.getAbsolutePath());
                         }
                     }
