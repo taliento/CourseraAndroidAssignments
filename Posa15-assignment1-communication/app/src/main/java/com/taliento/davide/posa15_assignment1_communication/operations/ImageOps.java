@@ -1,4 +1,4 @@
-package com.taliento.davide.posa15_assignment1_communication.operations;
+package vandy.mooc.operations;
 
 import java.io.File;
 import java.lang.ref.WeakReference;
@@ -6,6 +6,12 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 
+import vandy.mooc.activities.DisplayImagesActivity;
+import vandy.mooc.activities.MainActivity;
+import vandy.mooc.services.DownloadImageService;
+import vandy.mooc.utils.ServiceResultHandler;
+import vandy.mooc.utils.Utils;
+import vandy.mooc.R;
 
 import android.app.ActionBar.LayoutParams;
 import android.app.Activity;
@@ -21,13 +27,6 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
-
-import com.taliento.davide.posa15_assignment1_communication.R;
-import com.taliento.davide.posa15_assignment1_communication.activities.DisplayImagesActivity;
-import com.taliento.davide.posa15_assignment1_communication.activities.MainActivity;
-import com.taliento.davide.posa15_assignment1_communication.services.DownloadImageService;
-import com.taliento.davide.posa15_assignment1_communication.utils.ServiceResultHandler;
-import com.taliento.davide.posa15_assignment1_communication.utils.Utils;
 
 /**
  * This class provides all the image-related operations.
@@ -101,10 +100,11 @@ public class ImageOps {
      */
     public ImageOps(MainActivity activity) {
         // Initialize the WeakReference.
-        mActivity = new WeakReference<MainActivity>(activity);
+        mActivity = new WeakReference<>(activity);
 
         // Initialize the downloadHandler.
-        mServiceResultHandler = new ServiceResultHandler(mActivity.get());
+        mServiceResultHandler =
+            new ServiceResultHandler(mActivity.get());
                 
         // Create a timestamp that will be unique.
         final String timestamp =
@@ -154,44 +154,6 @@ public class ImageOps {
     }
 
     /**
-     * Called by the ImageOps constructor and after a runtime
-     * configuration change occurs to finish the initialization steps.
-     */
-    public void onConfigurationChange(MainActivity activity) {
-        // Reset the mActivity WeakReference.
-        mActivity = new WeakReference<MainActivity>(activity);
-
-        // If we have a currently active service result handler, allow
-        // the handler to update its outdated weak reference to the
-        // ServiceResult callback implementation instance.
-        if (mServiceResultHandler != null) {
-            ((ServiceResultHandler)mServiceResultHandler)
-                    .onConfigurationChange(mActivity.get());
-        }
-
-        // (Re)initialize all the View fields.
-        initializeViewFields();
-
-        // If the content is non-null then we're done, so set the
-        // result of the Activity and finish it.
-        if (allDownloadsComplete()) {
-            // Hide the progress bar.
-            mLoadingProgressBar.setVisibility(View.INVISIBLE);
-            Log.d(TAG,
-                  "All images have finished downloading");
-        } else if (downloadsInProgress()) {
-            // Display the progress bar.
-            mLoadingProgressBar.setVisibility(View.VISIBLE);
-
-            Log.d(TAG,
-                  "Not all images have finished downloading");
-        }
-
-        // (Re)display the URLs.
-        displayUrls();
-    }
-
-    /**
      * Start all the downloads.
      */
     public void startDownloads() {
@@ -201,13 +163,17 @@ public class ImageOps {
 
         if (mUrlList.isEmpty())
             Utils.showToast(mActivity.get(),
-                    "no images provided");
+                            "no images provided");
         else {
             // Make the progress bar visible.
             mLoadingProgressBar.setVisibility(View.VISIBLE);
 
+            // Keep track of number of images to download that must be
+            // displayed.
+            mNumImagesToHandle = mUrlList.size();
+
             // Iterate over each URL and start the download.
-            for (String urlString : mUrlList) 
+            for (String urlString : mUrlList)
                 startDownload(Uri.parse(urlString));
         }
     }
@@ -219,14 +185,10 @@ public class ImageOps {
         // Create an intent to download the image.
         Intent intent =
             DownloadImageService.makeIntent(mActivity.get(),
-                    OperationType.DOWNLOAD_IMAGE.ordinal(),
-                    url,
-                    mDirectoryPathname,
-                    mServiceResultHandler);
-        // Keep track of number of images downloaded that must
-        // be displayed.
-        ++mNumImagesToHandle;
-
+                                            OperationType.DOWNLOAD_IMAGE.ordinal(),
+                                            url,
+                                            mDirectoryPathname,
+                                            mServiceResultHandler);
         Log.d(TAG,
               "starting the DownloadImageService for "
               + url.toString());
@@ -247,8 +209,10 @@ public class ImageOps {
         ++mNumImagesHandled;
 
         if (resultCode == Activity.RESULT_CANCELED) 
+            // Handle a failed download.
             handleDownloadFailure(data);
         else /* resultCode == Activity.RESULT_OK) */
+            // Handle a successful download.
             Log.d(TAG,
                   "received image at URI "
                   + DownloadImageService.getImagePathname(data));
@@ -312,6 +276,21 @@ public class ImageOps {
             // Dismiss the progress bar.
             mLoadingProgressBar.setVisibility(View.INVISIBLE);
         }
+    }
+
+    /**
+     * Returns true if all the downloads have completed, else false.
+     */
+    public boolean allDownloadsComplete() {
+        return mNumImagesHandled == mNumImagesToHandle
+            && mNumImagesHandled > 0;
+    }
+
+    /**
+     * Returns true if there are any downloads in progress, else false.
+     */
+    public boolean downloadsInProgress() {
+        return mNumImagesToHandle > 0;
     }
 
    /**
@@ -433,17 +412,40 @@ public class ImageOps {
     }
 
     /**
-     * Returns true if all the downloads have completed, else false.
+     * Called by the ImageOps constructor and after a runtime
+     * configuration change occurs to finish the initialization steps.
      */
-    public boolean allDownloadsComplete() {
-        return mNumImagesHandled == mNumImagesToHandle
-            && mNumImagesHandled > 0;
-    }
+    public void onConfigurationChange(MainActivity activity) {
+        // Reset the mActivity WeakReference.
+        mActivity = new WeakReference<>(activity);
 
-    /**
-     * Returns true if there are any downloads in progress, else false.
-     */
-    public boolean downloadsInProgress() {
-        return mNumImagesToHandle > 0;
+        // If we have a currently active service result handler, allow
+        // the handler to update its outdated weak reference to the
+        // ServiceResult callback implementation instance.
+        if (mServiceResultHandler != null) {
+            ((ServiceResultHandler)mServiceResultHandler)
+                .onConfigurationChange(mActivity.get());
+        }
+
+        // (Re)initialize all the View fields.
+        initializeViewFields();
+
+        // If the content is non-null then we're done, so set the
+        // result of the Activity and finish it.
+        if (allDownloadsComplete()) {
+            // Hide the progress bar.
+            mLoadingProgressBar.setVisibility(View.INVISIBLE);
+            Log.d(TAG,
+                  "All images have finished downloading");
+        } else if (downloadsInProgress()) {
+            // Display the progress bar.
+            mLoadingProgressBar.setVisibility(View.VISIBLE);
+
+            Log.d(TAG,
+                  "Not all images have finished downloading");
+        }
+
+        // (Re)display the URLs.
+        displayUrls();
     }
 }

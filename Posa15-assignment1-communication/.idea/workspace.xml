@@ -57,11 +57,9 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/taliento/davide/posa15_assignment1_communication/activities/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1566" max-vertical-offset="2340">
-              <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
-              <folding>
-                <element signature="e#3714#3715#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="1710" max-vertical-offset="2430">
+              <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -69,11 +67,9 @@
       <file leaf-file-name="View.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-22/android/view/View.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="348071" max-vertical-offset="370296">
+            <state vertical-scroll-proportion="0.0" vertical-offset="357588" max-vertical-offset="380052">
               <caret line="19866" column="0" selection-start-line="19866" selection-start-column="0" selection-end-line="19866" selection-end-column="0" />
-              <folding>
-                <element signature="e#771686#771687#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -81,12 +77,9 @@
       <file leaf-file-name="Handler.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-22/android/os/Handler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1427" max-vertical-offset="13482">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1854" max-vertical-offset="14472">
               <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-              <folding>
-                <element signature="e#29660#29661#0" expanded="true" />
-                <element signature="e#29698#29699#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -94,7 +87,7 @@
       <file leaf-file-name="Looper.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-22/android/os/Looper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1980" max-vertical-offset="4950">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2502" max-vertical-offset="5652">
               <caret line="139" column="0" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
               <folding />
             </state>
@@ -104,8 +97,8 @@
       <file leaf-file-name="ImageOps.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/taliento/davide/posa15_assignment1_communication/operations/ImageOps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3204" max-vertical-offset="7668">
-              <caret line="212" column="0" selection-start-line="212" selection-start-column="0" selection-end-line="212" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="3204" max-vertical-offset="8226">
+              <caret line="178" column="0" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -114,7 +107,7 @@
       <file leaf-file-name="ContextWrapper.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-22/android/content/ContextWrapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="6591" max-vertical-offset="10098">
+            <state vertical-scroll-proportion="0.0" vertical-offset="9252" max-vertical-offset="12942">
               <caret line="514" column="25" selection-start-line="514" selection-start-column="25" selection-end-line="514" selection-end-column="25" />
               <folding />
             </state>
@@ -124,7 +117,7 @@
       <file leaf-file-name="DownloadImageService.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/taliento/davide/posa15_assignment1_communication/services/DownloadImageService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6666667" vertical-offset="2232" max-vertical-offset="3708">
+            <state vertical-scroll-proportion="0.3888889" vertical-offset="2232" max-vertical-offset="3708">
               <caret line="150" column="42" selection-start-line="150" selection-start-column="42" selection-end-line="150" selection-end-column="42" />
               <folding />
             </state>
@@ -134,11 +127,9 @@
       <file leaf-file-name="Uri.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-22/android/net/Uri.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="10980" max-vertical-offset="39384">
+            <state vertical-scroll-proportion="0.0" vertical-offset="12420" max-vertical-offset="42750">
               <caret line="690" column="0" selection-start-line="690" selection-start-column="0" selection-end-line="690" selection-end-column="0" />
-              <folding>
-                <element signature="e#22703#22704#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -146,7 +137,7 @@
       <file leaf-file-name="Log.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-22/android/util/Log.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1926" max-vertical-offset="3654">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2484" max-vertical-offset="4158">
               <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
               <folding />
             </state>
@@ -1249,8 +1240,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="458" />
-    <option name="y" value="160" />
+    <option name="x" value="478" />
+    <option name="y" value="164" />
     <option name="width" value="1351" />
     <option name="height" value="833" />
   </component>
@@ -1265,7 +1256,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="2" />
+    <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -1280,6 +1271,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1382,169 +1375,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Posa15-assignment1-communication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Posa15-assignment1-communication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="raw" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Posa15-assignment1-communication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Posa15-assignment1-communication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Posa15-assignment1-communication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Posa15-assignment1-communication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="posa15_assignment1_communication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Posa15-assignment1-communication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Posa15-assignment1-communication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="posa15_assignment1_communication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Posa15-assignment1-communication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Posa15-assignment1-communication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="posa15_assignment1_communication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="operations" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1602,8 +1437,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -1808,7 +1641,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="458" y="160" width="1351" height="833" extended-state="0" />
+    <frame x="478" y="164" width="1351" height="833" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1816,14 +1649,12 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988167" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39940828" sideWeight="0.49961746" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39940828" sideWeight="0.50038254" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988167" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35502958" sideWeight="0.5661821" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1831,13 +1662,15 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24942617" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3565417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988167" sideWeight="0.53481257" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32950193" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988167" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988167" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1890,7 +1723,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="7236">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1906,7 +1738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="468">
           <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1930,7 +1761,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="3204">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1960,9 +1790,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2448">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="e#3714#3715#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1970,7 +1798,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="7236">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1986,7 +1813,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="468">
           <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2018,7 +1844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="3204">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2041,9 +1866,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2448">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="e#3714#3715#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2051,7 +1874,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="7236">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2067,7 +1889,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="468">
           <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2099,7 +1920,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="3204">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2138,48 +1958,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="5" max-vertical-offset="2952">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/result_button.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="608">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/main_activity.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1170">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_result.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="27" max-vertical-offset="648">
           <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-          <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/taliento/davide/posa15_assignment1_communication/activities/LifecycleLoggingActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1998" max-vertical-offset="2664">
           <caret line="84" column="54" selection-start-line="84" selection-start-column="52" selection-end-line="84" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2195,7 +2010,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
           <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2203,7 +2017,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="4341" max-vertical-offset="7488">
           <caret line="251" column="60" selection-start-line="251" selection-start-column="60" selection-end-line="251" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2227,9 +2040,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="10980" max-vertical-offset="39384">
           <caret line="690" column="0" selection-start-line="690" selection-start-column="0" selection-end-line="690" selection-end-column="0" />
-          <folding>
-            <element signature="e#22703#22704#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2243,8 +2054,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/taliento/davide/posa15_assignment1_communication/operations/ImageOps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3204" max-vertical-offset="7668">
-          <caret line="212" column="0" selection-start-line="212" selection-start-column="0" selection-end-line="212" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="3204" max-vertical-offset="8226">
+          <caret line="178" column="0" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2253,9 +2064,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="348071" max-vertical-offset="370296">
           <caret line="19866" column="0" selection-start-line="19866" selection-start-column="0" selection-end-line="19866" selection-end-column="0" />
-          <folding>
-            <element signature="e#771686#771687#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2263,10 +2072,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1427" max-vertical-offset="13482">
           <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-          <folding>
-            <element signature="e#29660#29661#0" expanded="true" />
-            <element signature="e#29698#29699#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2280,11 +2086,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/taliento/davide/posa15_assignment1_communication/activities/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1566" max-vertical-offset="2340">
-          <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
-          <folding>
-            <element signature="e#3714#3715#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="1710" max-vertical-offset="2430">
+          <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2306,7 +2110,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/taliento/davide/posa15_assignment1_communication/services/DownloadImageService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6666667" vertical-offset="2232" max-vertical-offset="3708">
+        <state vertical-scroll-proportion="0.3888889" vertical-offset="2232" max-vertical-offset="3708">
           <caret line="150" column="42" selection-start-line="150" selection-start-column="42" selection-end-line="150" selection-end-column="42" />
           <folding />
         </state>

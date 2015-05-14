@@ -1,8 +1,10 @@
-package com.taliento.davide.posa15_assignment1_communication.activities;
+package vandy.mooc.activities;
 
 import java.io.File;
 import java.util.ArrayList;
 
+import vandy.mooc.R;
+import vandy.mooc.utils.Utils;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -17,9 +19,6 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.ImageView;
-
-import com.taliento.davide.posa15_assignment1_communication.R;
-import com.taliento.davide.posa15_assignment1_communication.utils.Utils;
 
 /**
  * An Activity that Displays an image.
@@ -110,6 +109,8 @@ public class DisplayImagesActivity extends LifecycleLoggingActivity {
     	// Configure the GridView with dynamic values.
     	imageGrid.setColumnWidth(mColWidth);
     	imageGrid.setNumColumns(mNumCols);
+    	
+    	((ImageAdapter)imageGrid.getAdapter()).setColWidth(mColWidth);
     }
 
     /**
@@ -192,6 +193,30 @@ public class DisplayImagesActivity extends LifecycleLoggingActivity {
             return imageView;
         }
 
+        
+        private int mColWidth = 100;
+        
+        public void setColWidth(int w ) {
+        	if (w > 0 )
+        		mColWidth = w;
+        }
+
+        /**
+         * Convert the @a bitmap parameter into a scaled Bitmap to 
+         * avoid out-of-memory exceptions with large images.
+         */
+        private Bitmap getScaledBitmap(File bitmap) {
+            BitmapFactory.Options options = new BitmapFactory.Options();
+            options.inJustDecodeBounds = true;
+            BitmapFactory.decodeFile(bitmap.getAbsolutePath(), options);
+        	
+            int sizeRatio = options.outWidth /mColWidth;
+        	
+            options.inJustDecodeBounds = false;
+            options.inSampleSize = sizeRatio;	
+            return BitmapFactory.decodeFile(bitmap.getAbsolutePath(), options);
+        }
+
         /**
          * Resets the bitmaps of the GridView to the ones found at the
          * given filterPath.
@@ -207,16 +232,14 @@ public class DisplayImagesActivity extends LifecycleLoggingActivity {
                     if (bitmap != null) {
                         try {
                             mBitmaps.add
-                                (BitmapFactory.decodeFile(bitmap.getAbsolutePath()));
-                        } catch (Exception e) {
+                                // Scale the bitmap to avoid
+                                // out-of-memory exceptions with large
+                                // images.
+                                (getScaledBitmap(bitmap));
+                        } catch (Exception | Error e) {
                             Log.e(TAG,"Error displaying image:", e);
                             Utils.showToast(DisplayImagesActivity.this,
-                                    "Error displaying image at "
-                                            + bitmap.getAbsolutePath());
-                        } catch (Error e) {
-                            Log.e(TAG,"Error displaying image:", e);
-                            Utils.showToast(DisplayImagesActivity.this,
-                                    "Error displaying image at "
+                                            "Error displaying image at "
                                             + bitmap.getAbsolutePath());
                         }
                     }

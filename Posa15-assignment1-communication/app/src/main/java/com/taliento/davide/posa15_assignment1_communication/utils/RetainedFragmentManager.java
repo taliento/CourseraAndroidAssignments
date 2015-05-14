@@ -1,4 +1,4 @@
-package com.taliento.davide.posa15_assignment1_communication.utils;
+package vandy.mooc.utils;
 
 import java.lang.ref.WeakReference;
 import java.util.HashMap;
@@ -140,7 +140,7 @@ public class RetainedFragmentManager {
          *            object that contains saved state information.
          */
         @Override
-            public void onCreate(Bundle savedInstanceState) {
+        public void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             
             // Ensure the data survives runtime configuration changes.

@@ -1,13 +1,12 @@
-package com.taliento.davide.posa15_assignment1_communication.utils;
+package vandy.mooc.utils;
 
 import java.lang.ref.WeakReference;
 
+import vandy.mooc.services.DownloadImageService;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
-
-import com.taliento.davide.posa15_assignment1_communication.services.DownloadImageService;
 
 /**
  * This class inherits from Handler and uses its handleMessage() hook
@@ -29,7 +28,7 @@ public class ServiceResultHandler extends Handler {
      * Constructor.
      */
     public ServiceResultHandler(ServiceResult serviceResult) {
-        mResult = new WeakReference<ServiceResult>(serviceResult);
+        mResult = new WeakReference<>(serviceResult);
     }
     
     /**
@@ -39,7 +38,7 @@ public class ServiceResultHandler extends Handler {
      * the mResult WeakReference.
      */
     public void onConfigurationChange(ServiceResult serviceResult) {
-        mResult = new WeakReference<ServiceResult>(serviceResult);
+        mResult = new WeakReference<>(serviceResult);
     }
 
     /**
@@ -65,8 +64,8 @@ public class ServiceResultHandler extends Handler {
         } else {
             // Forward result to callback implementation.
             mResult.get().onServiceResult(requestCode,
-                    resultCode,
-                    data);
+                                          resultCode,
+                                          data);
         }
     }
 }
