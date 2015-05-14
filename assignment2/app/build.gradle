@@ -6,13 +6,13 @@ android {
 
     defaultConfig {
         applicationId "vandy.mooc"
-        minSdkVersion 14
+        minSdkVersion 19
         targetSdkVersion 22
     }
 
     buildTypes {
         release {
-            minifyEnabled false
+            runProguard false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
