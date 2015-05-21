@@ -57,4 +57,4 @@
         android:text="@string/download_and_display_images" 
         android:layout_above="@id/button3"/>
 </RelativeLayout>
-<!-- From: file:/home/taliento/sviluppoAndroid/CourseraAndroidAssignments/assignment2/app/src/main/res/layout/main_activity.xml -->
+<!-- From: file:/home/taliento/sviluppoAndroid/CourseraAndroidAssignments/assignment21/app/src/main/res/layout/main_activity.xml -->

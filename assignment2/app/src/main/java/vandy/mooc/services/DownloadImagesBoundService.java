@@ -44,9 +44,11 @@ public class DownloadImagesBoundService extends LifecycleLoggingService {
         // Create a RequestHandler used to handle request Messages
         // sent from an Activity.
     	// TODO -- you fill in here.
+        mRequestHandler = new RequestHandler(this);
 
         // Create a Messenger that encapsulates the RequestHandler.
-    	// TODO -- you fill in here.
+        // TODO -- you fill in here.
+        mRequestMessenger = new Messenger(mRequestHandler);
     }
 
     /**
@@ -70,5 +72,6 @@ public class DownloadImagesBoundService extends LifecycleLoggingService {
 
         // Shutdown the RequestHandler.
     	// TODO -- you fill in here.
+        mRequestHandler.shutdown();
     }
 }

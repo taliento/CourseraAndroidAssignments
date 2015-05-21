@@ -2,10 +2,10 @@
 <merger version="2" >
 
     <dataSet config="main" >
-        <source path="/home/taliento/sviluppoAndroid/CourseraAndroidAssignments/assignment2/app/src/main/assets" />
+        <source path="/home/taliento/sviluppoAndroid/CourseraAndroidAssignments/assignment21/app/src/main/assets" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="/home/taliento/sviluppoAndroid/CourseraAndroidAssignments/assignment2/app/src/debug/assets" />
+        <source path="/home/taliento/sviluppoAndroid/CourseraAndroidAssignments/assignment21/app/src/debug/assets" />
     </dataSet>
 
 </merger>

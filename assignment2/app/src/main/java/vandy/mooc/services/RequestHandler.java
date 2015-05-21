@@ -41,7 +41,7 @@ class RequestHandler extends Handler {
      */
     public RequestHandler(DownloadImagesBoundService service) {
         // Store a WeakReference to the DownloadImageService.
-        mService = new WeakReference<DownloadImagesBoundService>(service);
+        mService = new WeakReference<>(service);
 
         // Create an ExecutorService that manages a pool of threads.
         mExecutorService = Executors.newCachedThreadPool();
@@ -56,7 +56,7 @@ class RequestHandler extends Handler {
      * Messenger passed with the message.
      */
     public void handleMessage(Message message) {
-        // Convert the Message into a ReplyMessage.
+        // Convert the Message into a RequestMessage.
         final RequestMessage requestMessage =
             RequestMessage.makeRequestMessage(message);
 
@@ -129,7 +129,8 @@ class RequestHandler extends Handler {
      */
     public void shutdown() {
         // Immediately shutdown the ExecutorService.
-        // TODO -- you fill in here.        
+        // TODO -- you fill in here.
+        mExecutorService.shutdown();
     }
 }
 

@@ -101,7 +101,7 @@ public abstract class ImageOpsImpl {
      */
     public ImageOpsImpl(MainActivity activity) {
         // Initialize the WeakReference.
-        mActivity = new WeakReference<MainActivity>(activity);
+        mActivity = new WeakReference<>(activity);
 
         // Initialize the ServiceResultHandler.
         mServiceResultHandler = 
@@ -131,16 +131,16 @@ public abstract class ImageOpsImpl {
      */
     private void initializeViewFields() {
         // Store the ProgressBar in a field for fast access.
-        mLoadingProgressBar = new WeakReference<ProgressBar>
+        mLoadingProgressBar = new WeakReference<> 
             ((ProgressBar) mActivity.get().findViewById(R.id.progressBar_loading));
             
         // Store the EditText that holds the urls entered by the user
         // (if any).
-        mUrlEditText = new WeakReference<EditText>
+        mUrlEditText = new WeakReference<> 
             ((EditText) mActivity.get().findViewById(R.id.url));
 
         // Store the linear layout displaying URLs entered.
-        mLinearLayout = new WeakReference<LinearLayout>
+        mLinearLayout = new WeakReference<> 
             ((LinearLayout) mActivity.get().findViewById(R.id.linearLayout));
     }
 
@@ -316,7 +316,9 @@ public abstract class ImageOpsImpl {
             // Note that if the directory is empty, File.listFiles()
             // returns null.
             File file = new File(mDirectoryPathname);
-            if (file.isDirectory() && file.listFiles() != null) {
+            if (file.isDirectory() 
+                && file.listFiles() != null 
+                && file.listFiles().length > 0) {
                 // Create an Activity for displaying the images.
                 final Intent intent =
                         DisplayImagesActivity.makeIntent
@@ -426,7 +428,7 @@ public abstract class ImageOpsImpl {
      */
     public void onConfigurationChange(MainActivity activity) {
         // Reset the mActivity WeakReference.
-        mActivity = new WeakReference<MainActivity>(activity);
+        mActivity = new WeakReference<>(activity);
 
         // If we have a currently active service result handler, allow
         // the handler to update its outdated weak reference to the

@@ -27,7 +27,7 @@ public class ServiceResultHandler extends Handler {
      * Constructor stores @a serviceResult into a WeakReference.
      */
     public ServiceResultHandler(ServiceResult serviceResult) {
-        mResult = new WeakReference<ServiceResult>(serviceResult);
+        mResult = new WeakReference<>(serviceResult);
     }
     
     /**
@@ -37,7 +37,7 @@ public class ServiceResultHandler extends Handler {
      * associated with the mResult WeakReference.
      */
     public void onConfigurationChange(ServiceResult serviceResult) {
-        mResult = new WeakReference<ServiceResult>(serviceResult);
+        mResult = new WeakReference<>(serviceResult);
     }
 
     /**
